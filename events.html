@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events - Shadow_Wasper.io</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Particle Background -->
+    <div id="particles-js"></div>
+
+    <!-- Header and Sidebar -->
+    <header>
+        <div class="header-top">
+            <div class="menu-toggle">
+                <span class="hamburger" role="button" aria-label="Open menu">☰</span>
+            </div>
+            <h1>Shadow_wasper.io</h1>
+            <div class="login">
+                <a href="login-page.html">Sign In</a>
+            </div>
+        </div>
+        <div class="side-menu">
+            <div class="close-btn" role="button" aria-label="Close menu">×</div>
+            <ul>
+                <li><a href="index.html">Trending</a></li>
+                <li>
+                    <a class="toggle-submenu" href="#">AI News</a>
+                    <ul class="submenu">
+                        <li><a href="ai-news.html">View All AI News</a></li>
+                        <li><a href="ai-news.html#breakthroughs">Breakthroughs</a></li>
+                        <li><a href="ai-news.html#ethics">AI Ethics Debate</a></li>
+                        <li><a href="ai-news.html#quantum">Quantum Computing</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="toggle-submenu" href="#">Gaming News</a>
+                    <ul class="submenu">
+                        <li><a href="gaming-news.html">View All Gaming News</a></li>
+                        <li><a href="gaming-news.html#consoles">Next-Gen Consoles</a></li>
+                        <li><a href="gaming-news.html#releases">New Releases</a></li>
+                        <li><a href="gaming-news.html#esports">Esports</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="toggle-submenu" href="#">AI Tools</a>
+                    <ul class="submenu">
+                        <li><a href="ai-tools.html">View All AI Tools</a></li>
+                        <li><a href="ai-tools.html#writer">AI Writer</a></li>
+                        <li><a href="ai-tools.html#imagegenix">ImageGenix</a></li>
+                        <li><a href="ai-tools.html#codebot">CodeBot</a></li>
+                        <li><a href="ai-tools.html#voicecraft">VoiceCraft</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="toggle-submenu" href="#">Gacha Updates</a>
+                    <ul class="submenu">
+                        <li><a href="gacha-updates.html">View All Gacha Updates</a></li>
+                        <li><a href="gacha-updates.html#events">Gacha Events</a></li>
+                        <li><a href="gacha-updates.html#characters">New Characters</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="toggle-submenu" href="#">Events</a>
+                    <ul class="submenu">
+                        <li><a href="events.html">View All Events</a></li>
+                        <li><a href="events.html#tech">Tech Expos</a></li>
+                        <li><a href="events.html#gaming">Gaming Conventions</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="toggle-submenu" href="#">Guides</a>
+                    <ul class="submenu">
+                        <li><a href="guide.html">View All Guides</a></li>
+                        <li><a href="guide.html#beginner">Beginner Tips</a></li>
+                        <li><a href="guide.html#advanced">Advanced Strategies</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="toggle-submenu" href="#">Community</a>
+                    <ul class="submenu">
+                        <li><a href="community.html">View All Community</a></li>
+                        <li><a href="community.html#ai-debate">AI Ethics Debate</a></li>
+                        <li><a href="community.html#gaming-chat">Gaming Chat</a></li>
+                        <li><a href="community.html#tech-innovations">Tech Innovations</a></li>
+                    </ul>
+                </li>
+                <li><a href="search.html">Search</a></li>
+                <li><a href="submit-post.html">Submit a Post</a></li>
+                <li><a href="subscribe.html">Subscribe</a></li>
+                <li>
+                    <a class="toggle-submenu" href="#">Contact</a>
+                    <ul class="submenu">
+                        <li><a href="https://linktr.ee/Time_Walker" target="_blank">View All Contact</a></li>
+                        <li><a href="https://discord.com/invite/vYf2NxSuJY" target="_blank">Discord</a></li>
+                        <li><a href="https://www.pinterest.com/kevin11xlite/?invite_code=494164dfe3ca4299bc4b9aca244d8f43&sender=1014858234688970304" target="_blank">Pinterest</a></li>
+                        <li><a href="https://www.youtube.com/@Ps_Paradox" target="_blank">YouTube</a></li>
+                        <li><a href="https://www.instagram.com/ps__paradox" target="_blank">Instagram</a></li>
+                        <li><a href="https://www.patreon.com/Ps_Paradox?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink" target="_blank">Patreon</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <section id="events">
+            <h2>Events</h2>
+
+            <!-- Recent Events -->
+            <div class="news-section">
+                <h3>Recent Events</h3>
+                <div class="grid">
+                    <!-- Event 1: CES 2025 Highlights -->
+                    <div class="news-card" data-category="events" id="ces-2025">
+                        <img src="images/ces-2025.png" alt="CES 2025 Highlights">
+                        <div class="news-content">
+                            <h3>CES 2025 Highlights: AI Innovations Steal the Show</h3>
+                            <div class="meta">
+                                <span>By Event Team</span> | <span>March 31, 2025</span>
+                            </div>
+                            <p>
+                                CES 2025, held in Las Vegas from January 7-10, 2025, showcased groundbreaking AI innovations that dominated the tech expo. The event, which attracted over 150,000 attendees, featured major announcements from companies like NVIDIA, Google, and Samsung, with a heavy focus on AI integration in consumer products.
+                            </p>
+                            <p>
+                                NVIDIA unveiled its RTX Kit for AI-enhanced game development, a toolset that allows developers to create photorealistic characters and environments with minimal effort. The demo at CES included a live showcase of a fully AI-generated cityscape, complete with dynamic weather effects, leaving attendees in awe. NVIDIA also announced partnerships with major game engines like Unreal Engine to integrate these tools, making them accessible to developers worldwide.
+                            </p>
+                            <p>
+                                Google took the stage to announce updates to its Gemini 2.5 model, which now powers a range of smart home devices. A standout product was the Google Home AI Companion, a device that uses Gemini 2.5 to provide real-time assistance, from answering questions to controlling smart appliances with natural language commands. The device also features a holographic display, a first for consumer AI products, which impressed attendees with its futuristic design.
+                            </p>
+                            <p>
+                                Samsung introduced its AI-powered "Smart Fridge 2.0," which uses computer vision to track food inventory, suggest recipes based on available ingredients, and even order groceries automatically. While the technology was impressive, some attendees raised concerns about privacy, as the fridge requires constant internet connectivity and camera access. Samsung assured users that data is encrypted and stored locally, but the debate over AI privacy continues.
+                            </p>
+                            <p>
+                                CES 2025 also featured a panel on AI ethics, where industry leaders discussed the challenges of balancing innovation with responsibility. The event underscored AI’s growing role in everyday life, setting the stage for a year of technological advancements.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Event 2: E3 2025 Preview -->
+                    <div class="news-card" data-category="events" id="e3-2025">
+                        <img src="images/e3-2025.png" alt="E3 2025 Preview">
+                        <div class="news-content">
+                            <h3>E3 2025 Preview: What to Expect from the Gaming Convention</h3>
+                            <div class="meta">
+                                <span>By Event Team</span> | <span>March 30, 2025</span>
+                            </div>
+                            <p>
+                                E3 2025, scheduled for June 10-12, 2025, in Los Angeles, is shaping up to be a major event for the gaming industry. The Entertainment Software Association (ESA) has confirmed that this year’s convention will return to an in-person format, with a hybrid online component for global accessibility.
+                            </p>
+                            <p>
+                                Major publishers like Microsoft, Sony, and Nintendo are expected to attend, with rumors of big reveals on the horizon. Microsoft is reportedly planning to showcase the next chapter of *Halo Infinite*, including a new multiplayer mode that integrates AI-driven NPCs for dynamic gameplay. Sony is rumored to unveil a new PS5 Pro model with enhanced ray-tracing capabilities, alongside a first look at the next *God of War* installment.
+                            </p>
+                            <p>
+                                Nintendo is expected to focus on the Switch 2, with a reveal of its launch titles, including a new *Legend of Zelda* game. The company has also teased a collaboration with an AI firm to introduce adaptive difficulty in its games, allowing the system to adjust challenges based on player performance in real-time.
+                            </p>
+                            <p>
+                                Indie developers will also have a significant presence at E3 2025, with a dedicated pavilion showcasing over 100 indie games. The ESA has promised improved networking opportunities for indie devs, including pitch sessions with major publishers. With E3 2025 approaching, the gaming community is buzzing with excitement for what’s to come.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Earlier Events -->
+            <div class="news-section">
+                <h3>Earlier Events</h3>
+                <div class="grid">
+                    <!-- Event 1: GDC 2025 -->
+                    <div class="news-card" data-category="events" id="gdc-2025">
+                        <img src="images/gdc-2025.png" alt="GDC 2025">
+                        <div class="news-content">
+                            <h3>GDC 2025: NVIDIA’s AI Tools Unveiled</h3>
+                            <div class="meta">
+                                <span>By Event Team</span> | <span>March 13, 2025</span>
+                            </div>
+                            <p>
+                                At GDC 2025, held on March 13, 2025, NVIDIA introduced AI-powered tools for game development, including neural rendering and procedural content generation, revolutionizing the industry.  AI Summit 2025, happening May 15-17 in San Francisco, will focus on AI in business with keynotes from Google, Microsoft, and xAI.
+                            </p>
+                        </div>
+                    </div>
+
+                                        <!-- Event 2: E3 2025 Preview -->
+                                        <div class="news-card" data-category="events" id="e3-2025">
+                                            <img src="images/e3-2025.png" alt="E3 2025 Preview">
+                                            <div class="news-content">
+                                                <h3>E3 2025 Preview: What to Expect from the Gaming Expo</h3>
+                                                <div class="meta">
+                                                    <span>By Event Team</span> | <span>March 30, 2025</span>
+                                                </div>
+                                                <p>
+                                                    E3 2025 is set to return in June 2025, and the gaming community is buzzing with anticipation. Scheduled to take place in Los Angeles from June 10-12, this year’s expo promises to be a major event for gamers, with both in-person and digital attendance options. Major publishers like Nintendo, Xbox, and Ubisoft have already confirmed their participation, while Sony is rumored to make a surprise appearance after skipping recent years.E3 2025, set for June 10-12 in Los Angeles, will feature major reveals from Nintendo, Xbox, and Ubisoft, including the Switch 2 and *Fable* reboot.
+                                                </p>
+                                                <p>
+                                                    One of the highlights of E3 2025 will be Nintendo’s showcase, which is expected to reveal more details about the successor to the Nintendo Switch, tentatively called the "Switch 2." Leaks suggest the new console will support 4K gaming and feature backward compatibility with existing Switch titles. Nintendo is also likely to announce new entries in the *Legend of Zelda* and *Metroid* franchises, following the success of *Tears of the Kingdom* and *Metroid Dread*.
+                                                </p>
+                                                <p>
+                                                    Xbox is gearing up to showcase *Fable*, the long-awaited reboot of the classic RPG series, with a new trailer and gameplay footage. Ubisoft will focus on *Assassin’s Creed: Hexe*, a darker, witchcraft-themed entry in the franchise set in 16th-century Europe. Indie developers will also have a strong presence, with a dedicated "Indie Showcase" stream highlighting over 50 new titles.
+                                                </p>
+                                                <p>
+                                                    For those attending in person, E3 2025 will feature hands-on demos, esports tournaments, and developer panels. The event will also host a "Fan Fest" on the final day, allowing attendees to meet streamers and content creators. Tickets for the in-person event go on sale in April, with prices starting at $150 for a three-day pass. The digital stream will be free to watch on platforms like YouTube and Twitch.
+                                                </p>
+                                                <p>
+                                                    E3 2025 is shaping up to be a pivotal moment for the gaming industry, especially as it navigates the post-pandemic landscape. With major reveals and a renewed focus on community engagement, this year’s expo is one that gamers won’t want to miss.
+                                                </p>
+                                            </div>
+                                        </div>
+                    
+                                        <!-- Event 3: AI Summit 2025 -->
+                                        <div class="news-card" data-category="events" id="ai-summit-2025">
+                                            <img src="images/ai-summit-2025.png" alt="AI Summit 2025">
+                                            <div class="news-content">
+                                                <h3>AI Summit 2025: The Future of AI in Business</h3>
+                                                <div class="meta">
+                                                    <span>By Event Team</span> | <span>March 29, 2025</span>
+                                                </div>
+                                                <p>
+                                                    The AI Summit 2025, scheduled for May 15-17 in San Francisco, is poised to be a landmark event for AI professionals and businesses. This year’s summit will focus on the integration of AI into various industries, with keynotes from leaders at Google, Microsoft, and xAI. The event aims to address both the opportunities and challenges of AI adoption, particularly in areas like healthcare, finance, and education.
+                                                </p>
+                                                <p>
+                                                    One of the main attractions will be a panel discussion on AI ethics, featuring experts debating the implications of AI in decision-making processes. Google will present its latest advancements in the Gemini model, showcasing how it can optimize supply chain management. Microsoft will demonstrate Azure AI’s new capabilities for real-time language translation, aimed at breaking down communication barriers in global businesses.
+                                                </p>
+                                                <p>
+                                                    xAI, fresh off its acquisition of X, will host a session on using AI to combat misinformation on social media platforms. The company plans to unveil a new tool that uses Grok to fact-check posts in real time, a move that has sparked both excitement and skepticism among attendees. Other highlights include workshops on AI-driven automation and a startup pitch competition, where new AI companies can secure funding from venture capitalists.
+                                                </p>
+                                                <p>
+                                                    The AI Summit will also feature a virtual attendance option, with live-streamed sessions and interactive Q&A segments. Tickets for the in-person event start at $500, while the virtual pass is priced at $99. With over 10,000 attendees expected, the AI Summit 2025 is set to be a defining moment for the future of AI in business.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                    
+                                <!-- Earlier Events -->
+                                <div class="news-section">
+                                    <h3>Earlier Events</h3>
+                                    <div class="grid">
+                                        <!-- Event 1: Tokyo Game Show 2024 -->
+                                        <div class="news-card" data-category="events" id="tokyo-game-show-2024">
+                                            <img src="images/tokyo-game-show-2024.png" alt="Tokyo Game Show 2024">
+                                            <div class="news-content">
+                                                <h3>Tokyo Game Show 2024 Highlights</h3>
+                                                <div class="meta">
+                                                    <span>By Event Team</span> | <span>September 26, 2024</span>
+                                                </div>
+                                                <p>
+                                                    Tokyo Game Show 2024, held on September 26-29, showcased new titles from Square Enix, including *Final Fantasy XVI* DLC and a *Dragon Quest* remake. The event drew over 200,000 attendees.
+                                                </p>
+                                            </div>
+                                        </div>
+                    
+                                        <!-- Event 2: TechCrunch Disrupt 2024 -->
+                                        <div class="news-card" data-category="events" id="techcrunch-disrupt-2024">
+                                            <img src="images/techcrunch-disrupt-2024.png" alt="TechCrunch Disrupt 2024">
+                                            <div class="news-content">
+                                                <h3>TechCrunch Disrupt 2024: AI Startups Shine</h3>
+                                                <div class="meta">
+                                                    <span>By Event Team</span> | <span>October 28, 2024</span>
+                                                </div>
+                                                <p>
+                                                    TechCrunch Disrupt 2024, held on October 28-30 in San Francisco, featured AI startups like Synthia AI, which won the Startup Battlefield with its AI-driven content creation tool.
+                                                </p>
+                                            </div>
+                                        </div>
+                    
+                                        <!-- Event 3: Gamescom 2024 -->
+                                        <div class="news-card" data-category="events" id="gamescom-2024">
+                                            <img src="images/gamescom-2024.png" alt="Gamescom 2024">
+                                            <div class="news-content">
+                                                <h3>Gamescom 2024: New Trailers and Demos</h3>
+                                                <div class="meta">
+                                                    <span>By Event Team</span> | <span>August 21, 2024</span>
+                                                </div>
+                                                <p>
+                                                    Gamescom 2024, held on August 21-25 in Cologne, Germany, featured new trailers for *Starfield* DLC and *Cyberpunk 2077: Phantom Liberty*. Over 300,000 attendees visited the event.
+                                                </p>
+                                            </div>
+                                        </div>
+                    
+                                        <!-- Event 4: CES 2024 -->
+                                        <div class="news-card" data-category="events" id="ces-2024">
+                                            <img src="images/ces-2024.png" alt="CES 2024">
+                                            <div class="news-content">
+                                                <h3>CES 2024: Tech Innovations Unveiled</h3>
+                                                <div class="meta">
+                                                    <span>By Event Team</span> | <span>January 9, 2024</span>
+                                                </div>
+                                                <p>
+                                                    CES 2024, held on January 9-12 in Las Vegas, showcased new tech like Samsung’s foldable tablet and LG’s transparent OLED TV, drawing over 130,000 attendees.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    
+                        <!-- Footer -->
+                        <footer>
+                            <p>© 2025 AI-Tech Hub. All rights reserved.</p>
+                        </footer>
+                    
+                        <script src="sidebar.js"></script>
+                        <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+                        <script src="particles-config.js"></script>
+                    </body>
+                    </html>

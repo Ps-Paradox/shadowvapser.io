@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadow_Wasper.io - Your Monthly Source for AI, Gaming, and Tech News & Updates</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <!-- Particle Background -->
+    <div id="particles-js"></div>
+
+    <!-- Loading Animation -->
+    <div class="loading-overlay">
+        <div class="spinner"></div>
+    </div>
+
+    <header>
+        <div class="header-top">
+            <div class="menu-toggle">
+                <span class="hamburger" role="button" aria-label="Open menu">☰</span>
+            </div>
+            <h1>Shadow_Wasper.io</h1>
+            <div class="login">
+                <a href="login-page.html">Sign In</a>
+            </div>
+        </div>
+        <div class="side-menu">
+            <div class="close-btn" role="button" aria-label="Close menu">×</div>
+            <ul>
+                <li><a href="index.html">Trending</a></li>
+                <li>
+                    <a class="toggle-submenu" href="#">AI News</a>
+                    <ul class="submenu">
+                        <li><a href="ai-news.html">View All AI News</a></li>
+                        <li><a href="ai-news.html#breakthroughs">Breakthroughs</a></li>
+                        <li><a href="ai-news.html#ethics">AI Ethics Debate</a></li>
+                        <li><a href="ai-news.html#quantum">Quantum Computing</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="toggle-submenu" href="#">Gaming News</a>
+                    <ul class="submenu">
+                        <li><a href="gaming-news.html">View All Gaming News</a></li>
+                        <li><a href="gaming-news.html#consoles">Next-Gen Consoles</a></li>
+                        <li><a href="gaming-news.html#releases">New Releases</a></li>
+                        <li><a href="gaming-news.html#esports">Esports</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="toggle-submenu" href="#">AI Tools</a>
+                    <ul class="submenu">
+                        <li><a href="ai-tools.html">View All AI Tools</a></li>
+                        <li><a href="ai-tools.html#writer">AI Writer</a></li>
+                        <li><a href="ai-tools.html#imagegenix">ImageGenix</a></li>
+                        <li><a href="ai-tools.html#codebot">CodeBot</a></li>
+                        <li><a href="ai-tools.html#voicecraft">VoiceCraft</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="toggle-submenu" href="#">Gacha Updates</a>
+                    <ul class="submenu">
+                        <li><a href="gacha-updates.html">View All Gacha Updates</a></li>
+                        <li><a href="gacha-updates.html#events">Gacha Events</a></li>
+                        <li><a href="gacha-updates.html#characters">New Characters</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="toggle-submenu" href="#">Events</a>
+                    <ul class="submenu">
+                        <li><a href="events.html">View All Events</a></li>
+                        <li><a href="events.html#tech">Tech Expos</a></li>
+                        <li><a href="events.html#gaming">Gaming Conventions</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="toggle-submenu" href="#">Guides</a>
+                    <ul class="submenu">
+                        <li><a href="guide.html">View All Guides</a></li>
+                        <li><a href="guide.html#beginner">Beginner Tips</a></li>
+                        <li><a href="guide.html#advanced">Advanced Strategies</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="toggle-submenu" href="#">Community</a>
+                    <ul class="submenu">
+                        <li><a href="community.html">View All Community</a></li>
+                        <li><a href="community.html#ai-debate">AI Ethics Debate</a></li>
+                        <li><a href="community.html#gaming-chat">Gaming Chat</a></li>
+                        <li><a href="community.html#tech-innovations">Tech Innovations</a></li>
+                    </ul>
+                </li>
+                <li><a href="search.html">Search</a></li>
+                <li><a href="submit-post.html">Submit a Post</a></li>
+                <li><a href="subscribe.html">Subscribe</a></li>
+                <li>
+                    <a class="toggle-submenu" href="#">Contact</a>
+                    <ul class="submenu">
+                        <li><a href="https://linktr.ee/Time_Walker" target="_blank">View All Contact</a></li>
+                        <li><a href="https://discord.com/invite/vYf2NxSuJY" target="_blank">Discord</a></li>
+                        <li><a href="https://www.pinterest.com/kevin11xlite/?invite_code=494164dfe3ca4299bc4b9aca244d8f43&sender=1014858234688970304" target="_blank">Pinterest</a></li>
+                        <li><a href="https://www.youtube.com/@Ps_Paradox" target="_blank">YouTube</a></li>
+                        <li><a href="https://www.instagram.com/ps__paradox" target="_blank">Instagram</a></li>
+                        <li><a href="https://www.patreon.com/Ps_Paradox?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink" target="_blank">Patreon</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div id="particles-js"></div>
+        <h2>AI AND GAMING UPDATES OF THE WEEK!!</h2>
+        <p>Explore the future with TIME_WALKER.INC<br>TECH UPDATES • GAMING INSIGHTS • GACHA RELEASES • AI BREAKTHROUGHS</p>
+        <div class="cta">
+            <a href="#blog">EXPLORE NOW</a>
+        </div>
+        <div class="social-icons">
+            <a href="https://discord.com/invite/vYf2NxSuJY" target="_blank"><i class="fab fa-discord"></i></a>
+            <a href="https://www.youtube.com/@Ps_Paradox" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.instagram.com/ps__paradox" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="chatbot-bubble">
+            <span class="chatbot-icon">💬</span>
+            <p>Hi, I'm Paradox, your cyber-guide!</p>
+        </div>
+    </section>
+
+    <div class="container">
+        <section id="blog">
+            <h2>Latest News</h2>
+            <div class="category-tabs">
+                <button class="tab active" onclick="filterCategory('all')">ALL</button>
+                <button class="tab" onclick="filterCategory('ai-news')">AI NEWS</button>
+                <button class="tab" onclick="filterCategory('gaming-news')">GAMING NEWS</button>
+                <button class="tab" onclick="filterCategory('gacha-updates')">GACHA UPDATES</button>
+            </div>
+            <div class="grid" id="news-grid">
+                <div class="news-card" data-category="ai-news">
+                    <img src="images/neural-network-breakthrough.jpg" alt="AI Breakthrough">
+                    <div class="news-content">
+                        <h3>Neural Networks Achieve Creative Breakthrough</h3>
+                        <p>A revolutionary new neural network architecture has redefined digital art creation...</p>
+                        <div class="meta">
+                            <span>By John Doe</span> | <span>2 days ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="news-card" data-category="gaming-news">
+                    <img src="images/cyberpunk-night-city.jpg" alt="Cyberpunk Update">
+                    <div class="news-content">
+                        <h3>Cyberpunk 2077: Night City Reborn</h3>
+                        <p>CD Projekt Red announces a massive overhaul including new missions...</p>
+                        <div class="meta">
+                            <span>By Jane Smith</span> | <span>3 days ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="news-card" data-category="ai-news">
+                    <img src="images/quantum-ai-processing.jpg" alt="Quantum AI">
+                    <div class="news-content">
+                        <h3>Quantum AI Processing Enters New Era</h3>
+                        <p>Scientists have successfully integrated quantum computing principles...</p>
+                        <div class="meta">
+                            <span>By Alex Brown</span> | <span>1 day ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="news-card" data-category="gacha-updates">
+                    <img src="images/neon-samurai-banner.jpg" alt="Neon Samurai">
+                    <div class="news-content">
+                        <h3>Neon Samurai: Limited Banner Revealed</h3>
+                        <p>The highly anticipated cyberpunk-inspired character combines katana combat...</p>
+                        <div class="meta">
+                            <span>By Emily White</span> | <span>4 days ago</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <aside class="trending">
+                <h3>Trending</h3>
+                <ul>
+                    <li><span>1</span> AI Ethics Debate</li>
+                    <li><span>2</span> Cyberpunk 2077 Updates</li>
+                    <li><span>3</span> Quantum Computing Breakthrough</li>
+                    <li><span>4</span> Next-Gen VR Gaming</li>
+                    <li><span>5</span> Gacha Crossover Event</li>
+                </ul>
+            </aside>
+        </section>
+
+        <section class="news-banner">
+            <div class="banner-content">
+                <h2>Join the Future of AI & Gaming</h2>
+                <p>Stay ahead with the latest updates, tools, and community events!</p>
+                <div class="cta">
+                    <a href="subscribe.html">Subscribe Now</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="community-goals">
+            <h2>Our Community Mission</h2>
+            <div class="goals-content">
+                <p>At AI-Tech Hub, we’re more than just a platform for AI and gaming updates—we’re a thriving community dedicated to shaping the future of technology and entertainment. Our mission is to connect innovators, gamers, and tech enthusiasts in a space where ideas flourish, knowledge is shared, and creativity knows no bounds.</p>
+                <p><strong>Our Goals:</strong></p>
+                <ul>
+                    <li><strong>Foster Innovation:</strong> We aim to inspire and support the development of groundbreaking AI tools and gaming experiences by providing resources, updates, and a platform for collaboration.</li>
+                    <li><strong>Build a Supportive Community:</strong> Whether you’re a beginner or a seasoned expert, our community is a place to learn, share, and grow. Join discussions, participate in events, and connect with like-minded individuals.</li>
+                    <li><strong>Promote Ethical AI:</strong> We’re committed to advancing AI ethics and ensuring technology benefits humanity. Our debates and forums provide a space to discuss the implications of AI and advocate for responsible innovation.</li>
+                    <li><strong>Celebrate Gaming Culture:</strong> From gacha updates to next-gen consoles, we celebrate the diversity of gaming culture and provide a hub for gamers to stay informed and engaged.</li>
+                    <li><strong>Empower Creativity:</strong> Through AI tools like ImageGenix and AI Writer, we empower creators to push the boundaries of digital art, storytelling, and game development.</li>
+                </ul>
+                <p>Join us on this journey to explore the intersection of AI, gaming, and technology. Together, we can build a future where innovation and creativity thrive!</p>
+                <div class="cta">
+                    <a href="community.html">Join Our Community</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="personalized">
+            <h2>Recommended for You</h2>
+            <div class="grid">
+                <div class="card">
+                    <img src="images/ai-writer-tool.jpg" alt="AI Writer">
+                    <h3>Explore AI Writer</h3>
+                    <p>Based on your interest in AI tools, try this content generator.</p>
+                    <div class="cta"><a href="ai-tools.html">Learn More</a></div>
+                </div>
+                <div class="card">
+                    <img src="images/gaming-tips-guide.jpg" alt="Gaming Guide">
+                    <h3>Gaming Tips Guide</h3>
+                    <p>Improve your skills with our beginner gaming guide.</p>
+                    <div class="cta"><a href="guide.html">Read Guide</a></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="forums">
+            <h2>Join the Discussion</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>AI Ethics Debate</h3>
+                    <p>50 replies | Join the debate on AI ethics and its future impact.</p>
+                    <div class="interactions">
+                        <button class="like-btn" onclick="likePost(this)">10 Likes</button>
+                        <button class="comment-btn" onclick="commentPost(this)">5 Comments</button>
+                    </div>
+                    <div class="cta"><a href="community.html">Join Discussion</a></div>
+                </div>
+                <div class="card">
+                    <h3>Gaming Community Chat</h3>
+                    <p>30 replies | Share your gaming experiences and tips.</p>
+                    <div class="interactions">
+                        <button class="like-btn" onclick="likePost(this)">8 Likes</button>
+                        <button class="comment-btn" onclick="commentPost(this)">3 Comments</button>
+                    </div>
+                    <div class="cta"><a href="community.html">Join Discussion</a></div>
+                </div>
+                <div class="card">
+                    <h3>Tech Innovations 2025</h3>
+                    <p>25 replies | Discuss the latest tech trends for the future.</p>
+                    <div class="interactions">
+                        <button class="like-btn" onclick="likePost(this)">12 Likes</button>
+                        <button class="comment-btn" onclick="commentPost(this)">7 Comments</button>
+                    </div>
+                    <div class="cta"><a href="community.html">Join Discussion</a></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="ai-tools">
+            <h2>Explore AI Tools</h2>
+            <div class="ai-tools-search">
+                <h3>Find the Best AI Tools & Apps</h3>
+                <p>Discover the latest AI tools for writing, image generation, coding, and more!</p>
+                <div class="search-bar">
+                    <input type="text" placeholder="Enter search term..." id="ai-tools-search-input">
+                    <button onclick="searchAITools()">Search</button>
+                </div>
+                <div class="category-tags">
+                    <a href="#" class="tag">Writing</a>
+                    <a href="#" class="tag">Image Generation</a>
+                    <a href="#" class="tag">Coding</a>
+                    <a href="#" class="tag">Voice</a>
+                    <a href="#" class="tag">Data Analysis</a>
+                    <a href="#" class="tag">Productivity</a>
+                    <a href="#" class="tag">Free</a>
+                </div>
+            </div>
+            <div class="grid ai-tools-grid">
+                <div class="card tool-card">
+                    <img src="images/ai-writer-tool.jpg" alt="AI Writer">
+                    <h3>AI Writer</h3>
+                    <p>Generate high-quality text content effortlessly.</p>
+                    <div class="cta"><a href="ai-tools.html">Learn More</a></div>
+                </div>
+                <div class="card tool-card">
+                    <img src="images/imagegenix-tool.jpg" alt="ImageGenix">
+                    <h3>ImageGenix</h3>
+                    <p>Create stunning visuals with AI-powered generation.</p>
+                    <div class="cta"><a href="ai-tools.html">Learn More</a></div>
+                </div>
+            </div>
+            <div class="trending-ai-tools">
+                <h3>Trending AI Tools</h3>
+                <div class="grid">
+                    <div class="card tool-card">
+                        <img src="images/alibaba-wan.jpg" alt="Alibaba WAN">
+                        <h3>Alibaba WAN 2.1</h3>
+                        <p>Open-source text-to-video AI service by Alibaba.</p>
+                        <div class="tags">
+                            <span class="tag hot">Hot</span>
+                            <span class="tag free">Free</span>
+                        </div>
+                    </div>
+                    <div class="card tool-card">
+                        <img src="images/hunyuan-video.jpg" alt="Hunyuan Video">
+                        <h3>Hunyuan Video</h3>
+                        <p>Text-to-video generation with unified architecture.</p>
+                        <div class="tags">
+                            <span class="tag hot">Hot</span>
+                            <span class="tag free">Free</span>
+                        </div>
+                    </div>
+                    <div class="card tool-card">
+                        <img src="images/zonos-tts.jpg" alt="Zonos TTS">
+                        <h3>Zonos TTS</h3>
+                        <p>Advanced text-to-speech with voice cloning.</p>
+                        <div class="tags">
+                            <span class="tag hot">Hot</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cta"><a href="ai-tools.html">Visit AI Tools Page</a></div>
+        </section>
+
+        <section id="community">
+            <h2>Our Community</h2>
+            <div class="community-banner">
+                <img src="images/community-banner.jpg" alt="Community Banner">
+            </div>
+            <div class="community-goals">
+                <h3>Community Goals</h3>
+                <p>Join a vibrant community of innovators, gamers, and tech enthusiasts. Share ideas, participate in events, and shape the future of AI and gaming together!</p>
+            </div>
+            <div class="video-gallery">
+                <h3>Video Highlights</h3>
+                <div class="video-grid">
+                    <div class="video-item">
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-item">
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-item">
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-item">
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-item">
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="social-links">
+                <h3>Connect With Us</h3>
+                <div class="social-icons">
+                    <a href="https://discord.com/invite/vYf2NxSuJY" target="_blank"><i class="fab fa-discord"></i></a>
+                    <a href="https://www.youtube.com/@Ps_Paradox" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/ps__paradox" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.pinterest.com/kevin11xlite/?invite_code=494164dfe3ca4299bc4b9aca244d8f43&sender=1014858234688970304" target="_blank"><i class="fab fa-pinterest"></i></a>
+                    <a href="https://www.patreon.com/Ps_Paradox?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink" target="_blank"><i class="fab fa-patreon"></i></a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="dna-animation">
+        <div class="dna-strand"></div>
+        <div class="dna-strand"></div>
+    </div>
+
+    <section id="ending-section">
+        <div class="ending-container">
+            <div class="connect-with-us">
+                <h2>Connect With Us</h2>
+                <div class="ending-socials">
+                    <a href="https://discord.com/invite/vYf2NxSuJY" target="_blank"><i class="fab fa-discord"></i></a>
+                    <a href="https://www.youtube.com/@Ps_Paradox" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/ps__paradox" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.pinterest.com/kevin11xlite/?invite_code=494164dfe3ca4299bc4b9aca244d8f43&sender=1014858234688970304" target="_blank"><i class="fab fa-pinterest"></i></a>
+                    <a href="https://www.patreon.com/Ps_Paradox?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink" target="_blank"><i class="fab fa-patreon"></i></a>
+                </div>
+            </div>
+            <div class="ending-search">
+                <input type="text" placeholder="Search AI-Tech Hub..." id="ending-search-input">
+                <button onclick="searchSiteFromEnding()">Search</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Shadow_Wasper.io All rights reserved.</p>
+    </footer>
+
+    <!-- Login Modal -->
+    <div class="login-modal" id="loginModal">
+        <div class="login-modal-content">
+            <span class="login-modal-close" onclick="document.getElementById('loginModal').style.display='none'">×</span>
+            <h2>Sign In</h2>
+            <form>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                <button type="submit">Sign In</button>
+            </form>
+            <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="sidebar.js"></script>
+    <script src="search.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="particles-config.js"></script>
+</body>
+</html>

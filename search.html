@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search - Shadow_Wasper.io</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Particle Background -->
+    <div id="particles-js"></div>
+
+    <!-- Header and Sidebar -->
+    <header>
+        <div class="header-top">
+            <div class="menu-toggle">
+                <span class="hamburger" role="button" aria-label="Open menu">☰</span>
+            </div>
+            <h1>Shadow_wasper.io</h1>
+            <div class="login">
+                <a href="login-page.html">Sign In</a>
+            </div>
+        </div>
+        <div class="side-menu">
+            <div class="close-btn" role="button" aria-label="Close menu">×</div>
+            <ul>
+                <li><a href="index.html">Trending</a></li>
+                <li>
+                    <a class="toggle-submenu" href="#">AI News</a>
+                    <ul class="submenu">
+                        <li><a href="ai-news.html">View All AI News</a></li>
+                        <li><a href="ai-news.html#breakthroughs">Breakthroughs</a></li>
+                        <li><a href="ai-news.html#ethics">AI Ethics</a></li>
+                        <li><a href="ai-news.html#quantum">Quantum Computing</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="toggle-submenu" href="#">Gaming News</a>
+                    <ul class="submenu">
+                        <li><a href="gaming-news.html">View All Gaming News</a></li>
+                        <li><a href="gaming-news.html#consoles">Next-Gen Consoles</a></li>
+                        <li><a href="gaming-news.html#releases">New Releases</a></li>
+                        <li><a href="gaming-news.html#esports">Esports</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="toggle-submenu" href="#">AI Tools</a>
+                    <ul class="submenu">
+                        <li><a href="ai-tools.html">View All AI Tools</a></li>
+                        <li><a href="ai-tools.html#writer">AI Writer</a></li>
+                        <li><a href="ai-tools.html#imagegenix">ImageGenix</a></li>
+                        <li><a href="ai-tools.html#codebot">CodeBot</a></li>
+                        <li><a href="ai-tools.html#voicecraft">VoiceCraft</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="toggle-submenu" href="#">Gacha Updates</a>
+                    <ul class="submenu">
+                        <li><a href="gacha-updates.html">View All Gacha Updates</a></li>
+                        <li><a href="gacha-updates.html#events">Gacha Events</a></li>
+                        <li><a href="gacha-updates.html#characters">New Characters</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="toggle-submenu" href="#">Events</a>
+                    <ul class="submenu">
+                        <li><a href="events.html">View All Events</a></li>
+                        <li><a href="events.html#tech">Tech Expos</a></li>
+                        <li><a href="events.html#gaming">Gaming Conventions</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="toggle-submenu" href="#">Guides</a>
+                    <ul class="submenu">
+                        <li><a href="guide.html">View All Guides</a></li>
+                        <li><a href="guide.html#beginner">Beginner Tips</a></li>
+                        <li><a href="guide.html#advanced">Advanced Strategies</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="toggle-submenu" href="#">Community</a>
+                    <ul class="submenu">
+                        <li><a href="community.html">View All Community</a></li>
+                        <li><a href="community.html#ai-debate">AI Ethics Debate</a></li>
+                        <li><a href="community.html#gaming-chat">Gaming Chat</a></li>
+                        <li><a href="community.html#tech-innovations">Tech Innovations</a></li>
+                    </ul>
+                </li>
+                <li><a href="search.html">Search</a></li>
+                <li><a href="submit-post.html">Submit a Post</a></li>
+                <li><a href="subscribe.html">Subscribe</a></li>
+                <li>
+                    <a class="toggle-submenu" href="#">Contact</a>
+                    <ul class="submenu">
+                        <li><a href="https://linktr.ee/Time_Walker" target="_blank">View All Contact</a></li>
+                        <li><a href="https://discord.com/invite/vYf2NxSuJY" target="_blank">Discord</a></li>
+                        <li><a href="https://www.pinterest.com/kevin11xlite/?invite_code=494164dfe3ca4299bc4b9aca244d8f43&sender=1014858234688970304" target="_blank">Pinterest</a></li>
+                        <li><a href="https://www.youtube.com/@Ps_Paradox" target="_blank">YouTube</a></li>
+                        <li><a href="https://www.instagram.com/ps__paradox" target="_blank">Instagram</a></li>
+                        <li><a href="https://www.patreon.com/Ps_Paradox?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink" target="_blank">Patreon</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <section id="search-section">
+            <h2>Search Articles</h2>
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Search articles..." aria-label="Search articles">
+                <button type="button" id="search-button" aria-label="Search"><i class="fas fa-search"></i></button>
+            </div>
+            <div id="search-results" class="search-results">
+                <h3>All Articles</h3>
+                <div class="news-section">
+                    <h4>Gaming News</h4>
+                    <div class="grid">
+                        <!-- NVIDIA GDC 2025 -->
+                        <div class="news-card" data-category="gaming-news">
+                            <img src="images/nvidia-gdc-2025.png" alt="NVIDIA GDC 2025">
+                            <div class="news-content">
+                                <h3><a href="gaming-news.html#nvidia-gdc-2025">NVIDIA Unveils AI-Powered Tools at GDC 2025: The Future of Game Development</a></h3>
+                                <p>NVIDIA introduced AI-powered tools at GDC 2025, revolutionizing game development with neural rendering and procedural content generation.</p>
+                            </div>
+                        </div>
+                        <!-- Google Play Games -->
+                        <div class="news-card" data-category="gaming-news">
+                            <img src="images/google-play-games.png" alt="Google Play Games">
+                            <div class="news-content">
+                                <h3><a href="gaming-news.html#google-play-games">Google Play Games Expands PC Library: Bridging Mobile and PC Gaming</a></h3>
+                                <p>Google expanded its Google Play Games platform, adding PC-only titles and enhancing cross-device gaming with cloud synchronization.</p>
+                            </div>
+                        </div>
+                        <!-- Balatro Developer -->
+                        <div class="news-card" data-category="gaming-news">
+                            <img src="images/balatro-dev.png" alt="Balatro Developer">
+                            <div class="news-content">
+                                <h3><a href="gaming-news.html#balatro-dev">Lessons from Balatro: How a Solo Developer Achieved Game of the Year Success</a></h3>
+                                <p>LocalThunk shares insights on developing *Balatro*, an indie game that sold over 5 million copies and earned critical acclaim.</p>
+                            </div>
+                        </div>
+                        <!-- Avowed GeForce -->
+                        <div class="news-card" data-category="gaming-news">
+                            <img src="images/avowed-geforce.png" alt="Avowed GeForce NOW">
+                            <div class="news-content">
+                                <h3><a href="gaming-news.html#avowed-geforce">Avowed Joins GeForce NOW: Cloud Gaming Gets a Fantasy Boost</a></h3>
+                                <p>*Avowed*, a fantasy RPG by Obsidian Entertainment, is now available on GeForce NOW, offering 4K streaming for Ultimate members.</p>
+                            </div>
+                        </div>
+                        <!-- Lost Records -->
+                        <div class="news-card" data-category="gaming-news">
+                            <img src="images/lost-records.png" alt="Lost Records">
+                            <div class="news-content">
+                                <h3><a href="gaming-news.html#lost-records">Lost Records: Bloom & Rage Hits GeForce NOW</a></h3>
+                                <p>*Lost Records: Bloom & Rage* by Don’t Nod joins GeForce NOW, bringing a narrative-adventure game to cloud gaming platforms.</p>
+                            </div>
+                        </div>
+                        <!-- Sea of Thieves -->
+                        <div class="news-card" data-category="gaming-news">
+                            <img src="images/sea-of-thieves.png" alt="Sea of Thieves">
+                            <div class="news-content">
+                                <h3><a href="gaming-news.html#sea-of-thieves">Sea of Thieves Sails to GeForce NOW</a></h3>
+                                <p>*Sea of Thieves* is now on GeForce NOW, allowing players to explore the open seas with friends via cloud streaming.</p>
+                            </div>
+                        </div>
+                        <!-- Disney Speedstorm -->
+                        <div class="news-card" data-category="gaming-news">
+                            <img src="images/disney-speedstorm.png" alt="Disney Speedstorm">
+                            <div class="news-content">
+                                <h3><a href="gaming-news.html#disney-speedstorm">Disney Speedstorm Races onto GeForce NOW</a></h3>
+                                <p>*Disney Speedstorm*, a kart-racing game with Disney and Pixar characters, joins GeForce NOW for family-friendly racing fun.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="news-section">
+                    <h4>AI News</h4>
+                    <div class="grid">
+                        <!-- Wild Week AI -->
+                        <div class="news-card" data-category="ai-news">
+                            <img src="images/wild-week-ai.png" alt="Wild Week for AI Updates">
+                            <div class="news-content">
+                                <h3><a href="ai-news.html#wild-week-ai">Wild Week for AI: A Flurry of Breakthroughs and Updates</a></h3>
+                                <p>A week of major AI updates, including Deepseek-V3, Ideogram 3.0, Google Gemini 2.5, and breakthroughs in AI cancer detection.</p>
+                            </div>
+                        </div>
+                        <!-- Apple Health AI -->
+                        <div class="news-card" data-category="ai-news">
+                            <img src="images/apple-health-ai.png" alt="Apple Health AI">
+                            <div class="news-content">
+                                <h3><a href="ai-news.html#apple-health-ai">Apple’s Health App Revamp: AI Doctor Service Coming in iOS 19</a></h3>
+                                <p>Apple plans to launch an AI-powered doctor service with iOS 19, enhancing the Health app with personalized health insights.</p>
+                            </div>
+                        </div>
+                        <!-- Bloomberg AI -->
+                        <div class="news-card" data-category="ai-news">
+                            <img src="images/bloomberg-ai.png" alt="Bloomberg AI Summaries">
+                            <div class="news-content">
+                                <h3><a href="ai-news.html#bloomberg-ai">Bloomberg’s Rocky Start with AI Summaries</a></h3>
+                                <p>Bloomberg issued corrections to AI-generated news summaries, reflecting challenges in media’s adoption of AI.</p>
+                            </div>
+                        </div>
+                        <!-- AI Billionaires -->
+                        <div class="news-card" data-category="ai-news">
+                            <img src="images/ai-billionaires.png" alt="AI Billionaires">
+                            <div class="news-content">
+                                <h3><a href="ai-news.html#ai-billionaires">29 New Billionaires from AI Boom</a></h3>
+                                <p>The AI boom created 29 new billionaires, with founders of OpenAI and Anthropic amassing $71 billion collectively.</p>
+                            </div>
+                        </div>
+                        <!-- X xAI Sale -->
+                        <div class="news-card" data-category="ai-news">
+                            <img src="images/x-xai-sale.png" alt="X xAI Sale">
+                            <div class="news-content">
+                                <h3><a href="ai-news.html#x-xai-sale">Elon Musk Sells X to xAI</a></h3>
+                                <p>Elon Musk sold X to xAI in an all-stock deal, valuing xAI at $80 billion and X at $33 billion.</p>
+                            </div>
+                        </div>
+                        <!-- DeepSeek MoE -->
+                        <div class="news-card" data-category="ai-news">
+                            <img src="images/deepseek-moe.png" alt="DeepSeek MoE">
+                            <div class="news-content">
+                                <h3><a href="ai-news.html#deepseek-moe">DeepSeek Revives Mixture of Experts Technique</a></h3>
+                                <p>DeepSeek’s success with V3 has renewed interest in the mixture of experts technique for AI development.</p>
+                            </div>
+                        </div>
+                        <!-- ChatGPT Overload -->
+                        <div class="news-card" data-category="ai-news">
+                            <img src="images/chatgpt-overload.png" alt="ChatGPT Overload">
+                            <div class="news-content">
+                                <h3><a href="ai-news.html#chatgpt-overload">ChatGPT’s Image Generation Overloads OpenAI Servers</a></h3>
+                                <p>ChatGPT’s new image-generation feature overloaded OpenAI servers, prompting temporary usage limits.</p>
+                            </div>
+                        </div>
+                         <!-- Grok AI on Telegram -->
+                         <div class="news-card" data-category="ai-news">
+                            <img src="images/grok-telegram.png" alt="Grok Telegram">
+                            <div class="news-content">
+                                <h3><a href="ai-news.html#grok-telegram">Grok AI Expands to Telegram</a></h3>
+                                <p>Grok AI, now in its Grok 3 model, has been integrated into Telegram, expanding its reach beyond X.</p>
+                            </div>
+                        </div>
+                        <!-- North Korea AI Drones -->
+                        <div class="news-card" data-category="ai-news">
+                            <img src="images/nk-ai-drones.png" alt="North Korea AI Drones">
+                            <div class="news-content">
+                                <h3><a href="ai-news.html#nk-ai-drones">North Korea’s Kim Jong Un Touts AI Suicide Drones</a></h3>
+                                <p>Kim Jong Un supervised tests of AI-equipped suicide drones, raising concerns about AI in military applications.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+        <!-- Footer -->
+        <footer>
+            <p>© 2025 AI-Tech Hub. All rights reserved.</p>
+        </footer>
+    
+        <script src="sidebar.js"></script>
+        <script src="search.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+        <script src="particles-config.js"></script>
+    </body>
+    </html>
